@@ -9,8 +9,9 @@ import java.util.Map;
  */
 public class HashMapTest {
     public static void main(String[] args) {
-        Map<Integer, Integer> map = new HashMap<>();
+        Map<Integer, Integer> map = new HashMap<>(4);
         map.put(null, null);
         map.put(null, 1);
+        System.out.println(map);
     }
 }
